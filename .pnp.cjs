@@ -54,7 +54,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-query", "virtual:2aff2f060f2eaa1aead584f0d02a59b8381a7b28d8b6bddf7e4be1c580835b71c3a94b22c2b990284cc5b13977a215325775767c8124c2a2bf5de73f08c081e1#npm:3.39.3"],\
             ["react-scripts", "virtual:2aff2f060f2eaa1aead584f0d02a59b8381a7b28d8b6bddf7e4be1c580835b71c3a94b22c2b990284cc5b13977a215325775767c8124c2a2bf5de73f08c081e1#npm:5.0.1"],\
             ["sass", "npm:1.77.4"],\
-            ["swiper", "npm:9.4.1"],\
+            ["swiper", "npm:11.1.4"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
             ["web-vitals", "npm:2.1.4"],\
             ["webpack-font-preload-plugin", "virtual:2aff2f060f2eaa1aead584f0d02a59b8381a7b28d8b6bddf7e4be1c580835b71c3a94b22c2b990284cc5b13977a215325775767c8124c2a2bf5de73f08c081e1#npm:1.5.0"]\
@@ -17339,15 +17339,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["ssr-window", [\
-        ["npm:4.0.2", {\
-          "packageLocation": "./.yarn/cache/ssr-window-npm-4.0.2-01f9c0151e-df18260092.zip/node_modules/ssr-window/",\
-          "packageDependencies": [\
-            ["ssr-window", "npm:4.0.2"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["ssri", [\
         ["npm:10.0.6", {\
           "packageLocation": "./.yarn/cache/ssri-npm-10.0.6-6b8eaec5ce-4603d53a05.zip/node_modules/ssri/",\
@@ -17796,11 +17787,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["swiper", [\
-        ["npm:9.4.1", {\
-          "packageLocation": "./.yarn/cache/swiper-npm-9.4.1-38d46d35a3-1180b3b766.zip/node_modules/swiper/",\
+        ["npm:11.1.4", {\
+          "packageLocation": "./.yarn/cache/swiper-npm-11.1.4-d9e487eecf-386ea824ae.zip/node_modules/swiper/",\
           "packageDependencies": [\
-            ["swiper", "npm:9.4.1"],\
-            ["ssr-window", "npm:4.0.2"]\
+            ["swiper", "npm:11.1.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -19024,7 +19014,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-query", "virtual:2aff2f060f2eaa1aead584f0d02a59b8381a7b28d8b6bddf7e4be1c580835b71c3a94b22c2b990284cc5b13977a215325775767c8124c2a2bf5de73f08c081e1#npm:3.39.3"],\
             ["react-scripts", "virtual:2aff2f060f2eaa1aead584f0d02a59b8381a7b28d8b6bddf7e4be1c580835b71c3a94b22c2b990284cc5b13977a215325775767c8124c2a2bf5de73f08c081e1#npm:5.0.1"],\
             ["sass", "npm:1.77.4"],\
-            ["swiper", "npm:9.4.1"],\
+            ["swiper", "npm:11.1.4"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
             ["web-vitals", "npm:2.1.4"],\
             ["webpack-font-preload-plugin", "virtual:2aff2f060f2eaa1aead584f0d02a59b8381a7b28d8b6bddf7e4be1c580835b71c3a94b22c2b990284cc5b13977a215325775767c8124c2a2bf5de73f08c081e1#npm:1.5.0"]\
