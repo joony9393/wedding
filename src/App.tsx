@@ -7,6 +7,10 @@ import FullScreenMessage from '../src/components/shared/FullScreenMessage'
 import Heading from '../src/components/sections/Heading'
 import Video from './components/sections/Video'
 import ImageGallery from './components/sections/ImageGallery'
+import Intro from './components/sections/Intro'
+import Invitation from './components/sections/Invitation'
+import Calender from './components/sections/Calendar'
+import Map from './components/sections/Map'
 
 import { Wedding } from '@models/wedding'
 
@@ -52,13 +56,31 @@ function App() {
     return null
   }
 
-  const { date, galleryImages } = wedding
+  const {
+    date,
+    galleryImages,
+    groom,
+    bride,
+    location,
+    message: { intro },
+    message: { invitation },
+  } = wedding
 
   return (
     <div className={cx('container')}>
       <Heading date={date} />
       <Video />
+      <Intro
+        groomName={groom.name}
+        brideName={bride.name}
+        locationName={location.name}
+        date={date}
+        message={intro}
+      />
+      <Invitation message={invitation} />
       <ImageGallery images={galleryImages} />
+      <Calender date={date} />
+      <Map location={location} />
       {JSON.stringify(wedding)}
     </div>
   )
