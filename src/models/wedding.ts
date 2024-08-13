@@ -21,7 +21,7 @@ export interface Location {
   link: string
   waytocome: {
     metro: string[]
-    but: string[]
+    bus: string[]
   }
 }
 
