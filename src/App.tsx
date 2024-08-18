@@ -12,6 +12,7 @@ import Invitation from './components/sections/Invitation'
 import Calender from './components/sections/Calendar'
 import Map from './components/sections/Map'
 import Contact from './components/sections/Contact'
+import Share from './components/sections/Share'
 
 import { Wedding } from '@models/wedding'
 
@@ -82,8 +83,8 @@ function App() {
       <ImageGallery images={galleryImages} />
       <Calender date={date} />
       <Map location={location} />
-      <Contact />
-      {JSON.stringify(wedding)}
+      <Contact groom={groom} bride={bride} />
+      <Share groomName={groom.name} brideName={bride.name} date={date} />
     </div>
   )
 }
